@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+    <add sel="/effects">
+        <effect name="lightning_effect_warp" alignment="normal" emitterspace="zone">
+            <elements>
+                <!-- very large and far away from the ship, but it does work -->
+                <!-- <element id="6" ref="lightning_effect_macro" forkeffect="none" duration="18.0" fadein="6.0" fadeout="6.0" minscale="30.0" maxscale="40.0" forklod="ubereffect"></element> -->
+                <!-- somewhat smaller; but still very large, about 3k away from ship at least -->
+                <!-- <element id="5" ref="lightning_effect_macro" forkeffect="none" duration="18.0" fadein="6.0" fadeout="6.0" minscale="3.0" maxscale="4.0" forklod="ubereffect"></element> -->
+                <!-- maybe smaller?  the lightning bolts might have been, but they were still far away from the ship -->
+                <!-- <element id="4" ref="lightning_effect_macro" forkeffect="none" duration="18.0" fadein="0.0" fadeout="0.0" minscale="1.0" maxscale="2.0" forklod="ubereffect"></element> -->
+                <!-- made the positions of lightning bolts closer to 0 point by a factor of 10 -->
+                <!-- making the scale below 0, what will that do???? it definitely got smaller; 2-3 times longer than the omicron still tho -->
+                <!-- at least the lightning bolts generally follow the length of the ship, so it kind of looks really cool -->
+                <!-- <element id="3" ref="lightning_effect_macro" forkeffect="none" duration="18.0" fadein="0.0" fadeout="0.0" minscale="0.1" maxscale="0.5" forklod="ubereffect"></element> -->
+                <!-- SMALLER!!!! ok maybe too small.... -->
+                <!-- <element id="2" ref="lightning_effect_macro" forkeffect="none" duration="18.0" fadein="0.0" fadeout="0.0" minscale="0.01" maxscale="0.2" forklod="ubereffect"></element> -->
+                <element id="1" ref="lightning_effect_macro" forkeffect="none" duration="18.0" fadein="0.0" fadeout="0.0" minscale="0.2" maxscale="0.2" forklod="ubereffect"></element>
+            </elements>
+        </effect>
+    </add>
+</diff>

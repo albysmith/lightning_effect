@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+	<add sel="/index">
+		<entry name="lightning_effect_macro" value="Extensions/lightning_effect/lightning_effect/lightning_effect_macro" />
+	</add>
+</diff>
